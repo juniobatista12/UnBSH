@@ -1,3 +1,5 @@
+# UNBSH
+
 O projeto conta com um arquivo Makefile, então basta rodar um make estando na raiz.
 Em execucao, ele ira mostrar na primeira linha os caminhos do PATH configurados no arquivo .unbshrc_profile e os alias definidos no arquivo
 .unbshrc, podendo ser adicionados novos PATHS e novos aliases. O g++ utilizado foi o descrito abaixo utilizando o Ubuntu 18.04.
