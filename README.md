@@ -1,10 +1,21 @@
-# UNBSH
+# Developing a Shell using C/C++
 
-O projeto conta com um arquivo Makefile, então basta rodar um make estando na raiz.
-Em execucao, ele ira mostrar na primeira linha os caminhos do PATH configurados no arquivo .unbshrc_profile e os alias definidos no arquivo
-.unbshrc, podendo ser adicionados novos PATHS e novos aliases. O g++ utilizado foi o descrito abaixo utilizando o Ubuntu 18.04.
+This project contains a shell developed in Operational Systems subject in University of Brasilia. The goal in this project was make a shell with Brazilian Portuguese commands making any necessary system call.
 
-g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
-Copyright (C) 2017 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+> Compiling and executing
+
+```sh
+make
+```
+
+And execute the next command to execute the game:
+
+```sh
+./unbshrc
+```
+
+When executing, the first line prompted will show the PATH of the shell developed. This variable can be configured in the .unbshrc_profile file. The shell uses aliases for the UNIX commands, and, in order to edit those aliases, the .unbshrc file may be edited.
+
+> Test Environment
+
+This project was compiled using g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, then it may not work with previous g++ versions.
